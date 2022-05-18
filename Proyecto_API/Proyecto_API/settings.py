@@ -78,14 +78,28 @@ WSGI_APPLICATION = 'Proyecto_API.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'HOST':'localhost',
+#        'PORT':'3306',
+#        'USER':'root',
+#        'PASSWORD':'root',
+#        'NAME':'proyecto_api',
+#        'OPTIONS': {
+#            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+#        }
+#    }
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'HOST':'containers-us-west-52.railway.app',
+        'PORT':'7614',
         'USER':'root',
-        'PASSWORD':'root',
-        'NAME':'proyecto_api',
+        'PASSWORD':'hPz3VF0X2TQnjIZFKn0P',
+        'NAME':'railway',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
