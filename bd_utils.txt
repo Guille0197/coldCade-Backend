@@ -1,0 +1,30 @@
+Contenedor:
+capacidad maxima,
+capacidad actual,
+temperatura,
+tipo,
+
+SuperUser
+jorge
+jeahiguera113097
+
+
+token de jorge e877ac82bc7763668bd6b3bab0b6e85bd7b7627a24fe49e8742c875d4b851cae
+token de admin 317a6f08c72e788544bea591101f1f715831f904e7c935e78c4fcb1cd6a115cb
+Para forzar policy security
+    Set-ExecutionPolicy Unrestricted -Force
+
+ACTIVAR ENTORNO VIRTUAL
+    .\env\Scripts\activate  
+Salir del entorno 
+    deactivate 
+
+Activar Django 
+
+Para realizar migraciones
+
+    python manage.py makemigrations  
+    python manage.py migrate      
+
+Levantar Server
+    python manage.py runserver

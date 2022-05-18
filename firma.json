@@ -1,0 +1,50 @@
+// Post para un contenedor
+//api/container/
+{"body":{
+    "max_capacity":51111,
+   "current_capacity":511111,
+   "temperature": 151111,
+   "type":151111
+   }
+   }
+// Post para un producto
+//api/product/
+{
+    "body":{
+    "cli_uuid":"123-123-123-123",
+   "harvest_date":"2022-04-22",
+   "type": "Lechuga alv",
+   "name":"lechuga romana muy seria",
+   "container_uuid":"643e0d8b-233c-47bf-a012-b8ce2def5283"
+   }
+   }
+// Post para un cliente
+//api/client/
+   {
+    "body":{
+    "first_name":"El yeyo",
+   "last_name":"Tilin",
+   "age": 32,
+   "document":"PE 6-423-422",
+   "cellphone":"6634-2345",
+   "email":"elyeyo@gmail.com",
+   "direction":"en el gheto forlife",
+   "document_type":"cedula"
+   }
+   }
+
+//payload para insertar un usuario
+//api/user/
+   {
+    "id": 2,
+    "password": "pbkdf2_sha256$320000$k95gSFHk7wSO9sW7WPxGLR$BFP1JdtyxbErpD342VMV7H1veWyv0x7OSRVJK/wa180=",
+    "last_login": "2022-04-23T02:32:46Z",
+    "is_superuser": false,
+    "username": "admin",
+    "first_name": "admin",
+    "last_name": "admin",
+    "email": "adming@adming.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-04-23T02:31:43Z"
+}
